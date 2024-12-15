@@ -1,0 +1,89 @@
+/* .icon {
+  color: #b91c1c;
+  background-color: #fee2e2;
+  padding: 5px;
+  border-radius: 7px;
+  display: flex;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+}
+.icon:hover {
+  background-color: #f4bfbf;
+}
+.header {
+  background-color: #ecfdf5;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  column-gap: 5px;
+}
+.main span {
+  display: flex;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  padding: 10px;
+}
+.iconClick {
+  background-color:  rgb(52, 211, 153) !important;
+  color: #fff;
+} */
+.frmDestination {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding: 5px 0 15px 0;
+  background-color: #ecfdf5;
+  align-items: center;
+}
+
+.frmDestination div input {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  outline: none;
+  padding: 0 5px;
+  height: 30px;
+  direction: rtl;
+  font-size: 13px;
+  font-family: vazir;
+  color: rgb(51, 65, 85);
+}
+.frmDestination div {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 80%;
+  gap: 10px;
+}
+.frmDestination div input:focus {
+  border: 1px solid var(--colorGreen);
+}
+.frmDestination span {
+  cursor: pointer;
+}
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+  padding: 20px 10px;
+}
+.footer span {
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  cursor: pointer;
+}
+.footer span svg {
+  margin: 0 5px;
+}
+.footer:hover {
+  background-color: var(--clrGreenSide);
+}

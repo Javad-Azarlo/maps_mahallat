@@ -1,0 +1,12 @@
+.btnMenu {
+  background-color: var(--colorGreen);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 5px solid #78b09d;
+  cursor: pointer;
+  margin: 0 4px;
+}
+.btnMenu:hover {
+  box-shadow: 0 0 0 1px rgba(4, 120, 87, 0.5), 0 0 8px 0 rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,29 @@
+.bx {
+  border-right: 5px solid rgb(4, 120, 87);
+  box-shadow: 0 0 8px 0 #0000001a;
+  background-color: rgb(167, 243, 208);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  gap: 8px;
+  color: rgb(100, 116, 139);
+  font-size: 14px;
+  transition: all 150ms;
+  position: relative;
+  overflow: hidden;
+  justify-content: end;
+  direction: ltr;
+  font-family: vazir;
+}
+.bx img {
+  width: 38px;
+  height: 38px;
+}
+.bx span {
+  font-family: vazir;
+}
+.bx:hover {
+  background-color: rgba(167, 243, 208, 0.7);
+}

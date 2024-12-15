@@ -1,0 +1,40 @@
+.settingBox {
+  text-align: right;
+  /* padding: 5px 1rem; */
+}
+.settingBox p {
+  display: flex;
+  align-items: center;
+  padding: 5px 1rem;
+  justify-content: end;
+  cursor: pointer;
+
+}
+.settingBox ul {
+  list-style: none;
+  padding: 5px 1rem;
+}
+.settingBox ul li {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.settingBox ul li span,
+.settingBox p,
+.settingBox ul li {
+  font-size: 14px;
+  font-weight: normal;
+  color: var(--clrMenu);
+
+}
+.settingBox ul li svg {
+  margin: 0 5px;
+}
+.settingBox p svg {
+  margin: 0 5px;
+}
+hr {
+  border: 1px solid #ccc !important;
+}

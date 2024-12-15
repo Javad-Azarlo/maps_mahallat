@@ -1,0 +1,28 @@
+header div {
+  display: flex;
+  justify-content: end;
+  flex-basis: 100%;
+  gap: 20px;
+}
+header div span {
+  display: inline-block;
+  cursor: pointer;
+  padding-bottom: 15px;
+  color: rgb(161, 161, 170);
+}
+.active {
+  border-bottom: 2px solid rgb(6, 78, 59);
+  color: rgb(6, 78, 59);
+}
+.mapsType {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); */
+  grid-gap: 16px;
+  gap: 16px;
+  width: 100%;
+  /* padding:8px; */
+}
+main {
+  direction: rtl;
+}

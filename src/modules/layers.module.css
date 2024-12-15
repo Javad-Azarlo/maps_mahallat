@@ -1,0 +1,36 @@
+.layesrBox {
+  padding: 1rem;
+  max-height: 90vh;
+  overflow-x: scroll;
+}
+.layesrBox ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0;
+  gap: 20px;
+}
+.layesrBox ul li {
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.layesrBox ul li p {
+
+  margin: 0;
+  background-color: var(--clrGreenSide);
+  display: flex
+;
+  flex-direction: column;
+  column-gap: 5px;
+  gap: 16px;
+}
+.layesrBox ul li p img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.layesrBox ul li p span {
+  font-size: 14px;
+  color: rgb(100, 116, 139);
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}

@@ -1,0 +1,129 @@
+.parentSearch {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 8px;
+  background-color: #fff !important;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  padding:4px 8px;
+  width: 425px;
+}
+.activeStyle{
+  background-color: rgb(52, 211, 153)!important;
+  color: #fff!important;
+}
+.search3 {
+  background-color: transparent;
+  outline: nonel;
+  border: none;
+}
+
+.search4 {
+  display: none;
+  direction: rtl;
+  width: inherit;
+}
+.search4 .listArray {
+  overflow-x: scroll;
+  display: flex;
+  padding: 0.5rem;
+}
+.search4 .listArray span {
+  width: max-content;
+  border: 1px solid rgb(226, 232, 240);
+  margin: 2px;
+  padding: 5px 12px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: rgb(100, 116, 139);
+  white-space: nowrap;
+  cursor: pointer;
+  transition: border 150ms;
+  user-select: none;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: vazir;
+}
+.frmSearch {
+  display: flex;
+  /* justify-content: space-between; */
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.2); */
+  padding: 0 0;
+  direction: rtl;
+  flex-direction: row;
+}
+.frmSearch input {
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  width: 100%;
+  font-family: vazir;
+}
+.frmSearch input::placeholder{
+  font-family: vazir;
+}
+.frmSearch select {
+  background-color: #f8fafc;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(1, 9, 7, 0.2);
+  min-height: 26px;
+  padding: 0 1rem;
+  color: rgb(51, 65, 85);
+  font-family: vazir;
+}
+.frmSearch div {
+  display: flex;
+  column-gap: 15px;
+}
+.frmSearch select:focus {
+  border: 1px solid rgba(1, 9, 7, 0.6);
+}
+.frmSearch select option{
+  font-family: vazir;
+}
+.searchList {
+  display: none;
+  flex-direction: column;
+  max-height: 400px;
+  overflow-y: scroll;
+  justify-content: start;
+  direction: ltr;
+}
+.searchList span {
+  text-align: right;
+  margin: 0.5rem 1rem;
+  cursor: pointer;
+  height: 1rem;
+  padding: 0.5rem 0;
+  font-size: 13px;
+  color: #000;
+  font-family: vazir;
+}
+.searchList span:hover {
+  background: #f9f9f9;
+}
+.searchList span svg {
+  margin: 0 0.5rem;
+}
+.pLoader{
+  display: flex;
+  justify-content: center;
+}
+.pLoader span{
+  padding: 0!important;
+}
+@media(max-width:638px){
+  
+   .search3{
+    display: none;
+  }
+  .parentSearch{
+    max-width: 425px;
+    width: auto;
+  }
+  .frmSearch{
+    justify-content: start;
+  } 
+}

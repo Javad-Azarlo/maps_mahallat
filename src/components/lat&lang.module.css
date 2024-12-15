@@ -1,0 +1,32 @@
+.div6P {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 8px;
+  background: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.08);
+  font-size: 12px;
+}
+.div6P span{
+  color: #000;
+  font-size: 12px;
+}
+.utm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+.latlng {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+ }
+ @media(max-width : 692px){
+  .div6P{
+    flex-direction: column;
+  }
+ }

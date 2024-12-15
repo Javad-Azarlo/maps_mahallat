@@ -1,0 +1,17 @@
+.btnMenu {
+  background-color: var(--colorGreen);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  cursor: pointer;
+}
+.btnGuest {
+  background-color: #89d6f7;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  cursor: pointer;
+}
+

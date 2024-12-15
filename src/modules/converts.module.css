@@ -1,0 +1,20 @@
+.converting {
+  padding: 0 1rem;
+}
+.converting ul {
+  list-style: none;
+}
+.converting ul li {
+  padding: 0.5rem 0;
+}
+.converting ul li span {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  cursor: pointer;
+  color: var(--clrMenu);
+  font-size: 14px;
+}
+.converting ul li span svg {
+  margin: 0 10px;
+}
